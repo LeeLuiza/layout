@@ -1,8 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #ffffff;
+    margin-top: 64px;
 }
 
 .container {
@@ -18,7 +17,7 @@ body {
 .container__title {
     font-family: Avenir;
     font-size: 72px;
-    margin: 20px;
+    margin: 0px;
 }
 
 .container__cards-section {
@@ -26,7 +25,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
     width: 1312px; 
-    opacity: 1; 
+    margin-top: 64px;
 }
 
 .card {
@@ -34,7 +33,6 @@ body {
     width: 316px;
     height: 559px;
     flex-direction: column;
-    opacity: 1; 
     position: relative;
 }
 

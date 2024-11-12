@@ -11,14 +11,17 @@ body {
     align-items: center;
 }
 
-.text-section h1 {
+.container__text-section {
     width: 1312px;
+}
+
+.container__title {
     font-family: Avenir;
     font-size: 72px;
     margin: 20px;
 }
 
-.cards-section {
+.container__cards-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
@@ -35,40 +38,43 @@ body {
     position: relative;
 }
 
-.card-number {
+.card__number {
     font-size: 40px;
     color: #25252559;
     margin-top: 10px;
 }
 
-p {
+.card__description {
     margin-top: 10px;
 }
 
-.card-content {
+.card__content {
     font-size: 24px;
     flex-grow: 1;
     line-height: 32.78px;
     color: #252525CC;
 }
 
-.image-container {
+.card__image-container {
     position: relative;
     width: 316px;
     height: 402px; 
-    border-radius: 24px 0 0 0;
+    border-radius: 24px; 
     overflow: hidden; 
-    border-radius: 24px;
 }
 
-.card-content img {
+.card__image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 24px;
 }
 
-.image-caption {
+.card__image-title {
+    margin: 0; 
+}
+
+.card__image-caption {
     position: absolute;
     font-family: Avenir;
     bottom: 0;
@@ -79,7 +85,7 @@ p {
     font-family: Avenir;
 }
 
-.image-caption p{
+.card__image-caption p{
     margin: 0;
     padding: 0; 
     font-size: 24px;
